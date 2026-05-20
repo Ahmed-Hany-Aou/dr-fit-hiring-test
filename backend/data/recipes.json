@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Grilled Chicken Bowl",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
+    "prep_time": 25,
+    "ingredients": [
+      { "name": "Chicken breast", "weight": 200, "unit": "g" },
+      { "name": "Brown rice", "weight": 100, "unit": "g" },
+      { "name": "Broccoli", "weight": 150, "unit": "g" },
+      { "name": "Olive oil", "weight": 10, "unit": "ml" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Avocado Toast",
+    "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=400",
+    "prep_time": 10,
+    "ingredients": "2 slices sourdough, 1 avocado, lemon juice, salt, chili flakes"
+  },
+  {
+    "id": 3,
+    "title": "Salmon Salad",
+    "image": null,
+    "prep_time": 20,
+    "ingredients": [
+      { "name": "Salmon fillet", "weight": 180, "unit": "g" },
+      { "name": "Mixed greens", "weight": 100, "unit": "g" },
+      { "name": "Cherry tomatoes", "weight": 80, "unit": "g" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Greek Yogurt Parfait",
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400",
+    "prep_time": 5,
+    "ingredients": [
+      { "name": "Greek yogurt", "weight": 200, "unit": "g" },
+      { "name": "Granola", "weight": 50, "unit": "g" },
+      { "name": "Blueberries", "weight": 60, "unit": "g" },
+      { "name": "Honey", "weight": 15, "unit": "ml" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Thai Peanut Noodles",
+    "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=400",
+    "prep_time": 30,
+    "ingredients": "Rice noodles 150g, peanut butter 30g, soy sauce, lime, sriracha, scallions"
+  },
+  {
+    "id": 6,
+    "title": "Quinoa Stuffed Peppers",
+    "image": "https://images.unsplash.com/photo-1606756790138-261d2b21cd75?w=400",
+    "prep_time": 45,
+    "ingredients": [
+      { "name": "Bell peppers", "weight": 300, "unit": "g" },
+      { "name": "Quinoa", "weight": 120, "unit": "g" },
+      { "name": "Black beans", "weight": 100, "unit": "g" },
+      { "name": "Corn", "weight": 80, "unit": "g" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Veggie Omelette",
+    "image": null,
+    "prep_time": 12,
+    "ingredients": [
+      { "name": "Eggs", "weight": 3, "unit": "pcs" },
+      { "name": "Spinach", "weight": 50, "unit": "g" },
+      { "name": "Feta cheese", "weight": 40, "unit": "g" },
+      { "name": "Mushrooms", "weight": 60, "unit": "g" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Turkey Wrap",
+    "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400",
+    "prep_time": 8,
+    "ingredients": "Whole wheat tortilla, sliced turkey 100g, lettuce, tomato, hummus, cucumber"
+  },
+  {
+    "id": 9,
+    "title": "Berry Smoothie",
+    "image": "",
+    "prep_time": 5,
+    "ingredients": [
+      { "name": "Mixed berries", "weight": 150, "unit": "g" },
+      { "name": "Banana", "weight": 100, "unit": "g" },
+      { "name": "Almond milk", "weight": 250, "unit": "ml" },
+      { "name": "Chia seeds", "weight": 10, "unit": "g" }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Beef Stir Fry",
+    "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400",
+    "prep_time": 22,
+    "ingredients": [
+      { "name": "Beef strips", "weight": 200, "unit": "g" },
+      { "name": "Bell pepper", "weight": 100, "unit": "g" },
+      { "name": "Snow peas", "weight": 80, "unit": "g" },
+      { "name": "Garlic", "weight": 5, "unit": "g" },
+      { "name": "Soy sauce", "weight": 20, "unit": "ml" }
+    ]
+  }
+]

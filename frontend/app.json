@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Dr.Fit Hiring Test",
+    "slug": "dr-fit-hiring-test",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.drfit.hiringtest"
+    },
+    "android": {
+      "package": "com.drfit.hiringtest"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
