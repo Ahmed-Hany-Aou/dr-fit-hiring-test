@@ -38,7 +38,7 @@ How you structure this is up to you — keep it simple, but it should feel polis
 
 ## Rules of the game
 
-- **Time budget: 3–4 hours.** If you hit 4 hours and aren't done, **stop**. Submit what you have with notes on what you'd do next. We care more about how you think than whether everything is perfect.
+- **Time budget: 10–60 minutes.** If you finish in 12 minutes — great, send it. If you hit 90 and aren't done, **stop** and submit what you have with notes on what you'd do next. We care more about how you think than whether everything is perfect.
 - **AI tools are encouraged.** Claude Code, Cursor, GitHub Copilot — use whatever you use day to day. We expect you to use AI well, not avoid it.
 - **You may modify any file in this repo**, except `backend/data/recipes.json`. The data is what it is — your code has to handle it correctly. (Treat that file the way you would a real production database you don't get to edit.)
 
@@ -62,17 +62,21 @@ npx expo start
 
 If the frontend can't reach the backend, you may need to point it at your machine's local IP rather than `localhost` — adjust `frontend/api/recipes.ts` accordingly.
 
-## How to verify your work
+## How to record and submit
 
-Before submitting, prepare a **5–7 minute Loom video** in English. In it, please cover:
+**Record your entire session.** Start the recording when you open this README and stop when you open the Pull Request. Don't edit. Talk through what you're thinking as you go, in English.
 
-1. **Reproduce** — Show each issue happening **before** your fix. A screen recording or screenshot for each.
-2. **Diagnose** — Walk us through how you found the root cause. What did you try first? What did AI suggest that was wrong? What worked?
-3. **Verify** — Show each issue resolved **after** your fix. Test the happy path and any edge cases you thought of.
-4. **Stress-test the feature** — For the search + detail view, demo the edge cases you came up with. What happens with an empty search? No results? Special characters? Slow network? A recipe that doesn't exist?
-5. **Honest assessment** — Was there anything you weren't sure about? Anything you'd do differently with more time? Anything you couldn't reproduce or fix?
+We want to see:
+
+1. **How you investigate** — what you read, what you try first, what you ask AI.
+2. **How you reproduce each issue** — show it broken before you fix it.
+3. **How you verify your fixes work** — test the happy path and the edge cases you thought of.
+4. **How you stress-test the feature** — empty search, no results, special characters, slow network, a recipe that doesn't exist.
+5. **Honest assessment at the end** — Was there anything you weren't sure about? Anything you'd do differently with more time? Anything you couldn't reproduce or fix?
 
 **Bonus signal**: edge cases or related issues you noticed but weren't explicitly asked about.
+
+> 🛠 **Heads up on tooling**: Loom's free tier caps at 5 minutes, which probably won't be enough. Figuring out a recording + sharing setup that works for you is part of the task. Surprise us.
 
 ## What to submit
 
@@ -80,7 +84,7 @@ Before submitting, prepare a **5–7 minute Loom video** in English. In it, plea
 2. Investigate, fix, and add the feature on a branch.
 3. Open a **Pull Request** back to this repo with:
    - A clear description of what you found and what you changed
-   - A link to your Loom video
+   - A link to your full-session recording
    - Anything else we should know
 
 We respond to every submission within **48 hours**.
