@@ -9,9 +9,9 @@ export type Ingredient = {
 export type Recipe = {
   id: number;
   title: string;
-  image: string;
+  image: string | null;
   prep_time: number;
-  ingredients: Ingredient[];
+  ingredients: Ingredient[] | string;
 };
 
 export async function fetchRecipes(): Promise<Recipe[]> {
